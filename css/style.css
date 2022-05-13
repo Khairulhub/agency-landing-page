@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+
+:root{
+    --fill-btn: #F73C6B;
+    --text-color:#737B7D;
+    --normal-text:#373F41;
+    --active-color:#3C64B1;
+
+}
+
+.fill-btn{
+    background-color: var(--fill-btn) !important;
+    color: #fff;
+}
+/* .fill-btn:hover{
+    color: #fff;
+} */
+*{
+    font-family: 'Mulish', sans-serif;
+}
+html{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+.navbar-nav .nav-item a{
+    color: var(--normal-text) !important;
+    font-weight: 900;
+
+}
+.navbar-nav .nav-item a.active{
+    color: var(--active-color) !important;
+    font-weight: 900;
+
+}
+.text{
+    color: var(--normal-text) !important;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.outline-btn{
+    color: var(--fill-btn) !important;
+    border:1px solid var(--fill-btn) !important;
+}
+.outline-btn a{
+    font-weight: 900;
+    color: var(--fill-btn) !important;
+}
+.h1-text-color{
+    color: var(--normal-text);
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.p-text-color{
+    color: var(--text-color);
+    font-weight: 600;
+}
+.header{
+    background-color: rgba(255, 165, 2, 0.5);
+}
+/* .hero-section{
+    background-image: url('/img/doodle-3\ 1.png');
+    background-repeat: no-repeat;
+   
+} */
+.online-shipping{
+    background-image: url('../img/doodle-4\ 1.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(46, 213, 115, 0.5);
+    
+}
+.grow-business{
+    background-color: rgba(255, 71, 87, 0.5);
+}
+footer {
+    position: relative;
+    background: rgba(46, 213, 115, 0.5);
+}
+footer .container .col-md-6 .row .col-md-4 img {
+  
+    background-image: url('../img/doodle-7\ 1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -78px;
+    right: 172px;
+
+}
+.li{
+    list-style: none;
+}
+@media screen and (min-width: 668px) and (max-width:1440px){
+    .img{
+        height: 500px;
+        width: 500px !important;
+    }
+    .position {
+        position: relative;
+    }
+    .cycle{
+        position: absolute;
+        top: -368px;
+    right: 291px;
+    }
+    .grow-img{
+        position: relative;
+    }
+    .grow-img img{
+        position: absolute;
+        top: -178px;
+
+    }
+    .grow-img p{
+        position: absolute;
+        top: -6px;
+        right: 337px;
+        transform: rotate(16.95deg);
+        font-size: 25px;
+        font-weight: 700;
+
+    }
+}
