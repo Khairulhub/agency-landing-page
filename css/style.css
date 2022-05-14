@@ -107,8 +107,10 @@ footer .container .col-md-6 .row .col-md-4 img {
     }
     .cycle{
         position: absolute;
-        top: -368px;
-    right: 291px;
+       
+    top: -368px;
+    right: 343px;
+
     }
     .grow-img{
         position: relative;
