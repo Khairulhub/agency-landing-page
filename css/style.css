@@ -97,7 +97,7 @@ footer .container .col-md-6 .row .col-md-4 img {
 .li{
     list-style: none;
 }
-@media screen and (min-width: 668px) and (max-width:1440px){
+@media screen and (min-width: 991px) and (max-width:1440px){
     .img{
         height: 500px;
         width: 500px !important;
@@ -126,5 +126,84 @@ footer .container .col-md-6 .row .col-md-4 img {
         font-size: 25px;
         font-weight: 700;
 
+    }
+}
+@media screen and (min-width: 668px) and (max-width:990px){
+    .img{
+        height: 350px;
+    width: 350px !important;
+    }
+    .position {
+        position: relative;
+    }
+    .cycle{
+        position: absolute;
+        top: -256px;
+    right: 200px;
+    }
+    .grow-img{
+        position: relative;
+    }
+    .grow-img img{
+        position: absolute;
+        top: -109px;
+
+    }
+    .grow-img p{
+        position: absolute;
+        top: -6px;
+    right: 187px;
+    transform: rotate(16.95deg);
+    font-size: 20px;
+    font-weight: 700;
+
+    }
+    .online-shipping {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:667px){
+    /* .img{
+        height: 350px;
+    width: 350px !important;
+    }
+    .position {
+        position: relative;
+    }
+    .cycle{
+        position: absolute;
+        top: -256px;
+    right: 200px;
+    } */
+    .grow-img{
+        position: relative;
+    }
+    .grow-img img{
+        height: 210px;
+        width: 210px;
+        position: absolute;
+        top: -128px;
+        right: 15px;
+
+    }
+    .grow-img p{
+        position: absolute;
+        top: -67px;
+        right: 124px;
+        transform: rotate(16.95deg);
+        font-size: 14px;
+        font-weight: 700;
+
+    }
+    .online-shipping {
+        width: 100%;
+ 
+    }
+    footer .container .col-md-6 .row .col-md-4 img {
+        background-image: url(../img/doodle-7\ 1.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -81px;
+        right: -8px;
     }
 }
